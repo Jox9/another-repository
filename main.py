@@ -15,7 +15,11 @@ def ask_animal_name()-> None:
     msj = f"""{name}?, que lindo nombre.
     Suena a que nos vamos a llevar bien.""" 
     print(msj)
+
+def despedir() -> None:
+    print("Hasta luego, fue un gusto tener esta pequena conversacion")
     
 saludar()
 ask_animal()
 ask_animal_name()
+despedir()
