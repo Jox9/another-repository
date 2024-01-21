@@ -10,7 +10,7 @@ def ask_plant() -> None:
     msj = f"El {favorite} !!. Es una bonita planta"
     print(msj)
 
-def ask_plant_name(favorite_plant)-> None:
+def ask_plant_name()-> None:
     name = input("Cual es su nombre? ")
     msj = f"""{name}?, que lindo nombre.
 Suena a que tu planta y yo, nos vamos a llevar bien.""" 
