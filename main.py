@@ -5,7 +5,7 @@ def saludar() -> None:
     msj = f"Hola {name}, tenga un buen dia.  "
     print(msj)
 
-def ask_plant() -> None:
+def ask_plant(favorite_plant) -> None:
     msj = "Me gustan las plantas."
     print(msj)
     favorite = input("Cual es tu planta favorita ? ")
@@ -16,9 +16,9 @@ def ask_plant() -> None:
 def ask_plant_name()-> None:
     name = input("Cual es su nombre? ")
     msj = f"""{name}?, que lindo nombre, para un {favorite_plant}
-    Suena a que tu planta y yo, nos vamos a llevar bien.""" 
+Suena a que tu planta y yo, nos vamos a llevar bien.""" 
     print(msj)
     
 saludar()
-ask_plant()
+ask_plant(favorite_plant)
 ask_plant_name()
